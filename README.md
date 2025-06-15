@@ -6,14 +6,17 @@ Welcome to the **Bitcoin Price Analysis Dashboard** — an interactive Tableau p
 
 ## 🗂️ Project Contents
 
-📁 **Bitcoin-Price-Tableau**
-├── Bitcoin Historical Data.csv # Raw dataset
-├── Bitcoin_Cleaned.csv # Cleaned dataset (Python preprocessing)
-├── Bitcoin_preprocessing.ipynb # Python notebook for data cleaning
-├── dashboard1.twb # Tableau Workbook (Part 1)
-├── dashboard2.twb # Tableau Workbook (Part 2)
-├── dashboard3.twb # Tableau Workbook (Part 3)
-├── README.md # This README file
+| File/Folder Name             | Description                               |
+|-----------------------------|-------------------------------------------|
+| `Bitcoin_Historical_Data.csv` | Raw dataset before cleaning               |
+| `Bitcoin_Cleaned.csv`         | Cleaned and preprocessed dataset (Python) |
+| `Bitcoin_preprocessing.ipynb` | Python notebook used for data cleaning    |
+| `dashboard1.twb`              | Tableau Workbook – Part 1 of dashboard    |
+| `dashboard2.twb`              | Tableau Workbook – Part 2 of dashboard    |
+| `dashboard3.twb`              | Tableau Workbook – Part 3 of dashboard    |
+| `dashboard_preview.png`       | Screenshot/Preview of final dashboard     |
+| `README.md`                   | Project documentation (this file)         |
+
 
 
 
