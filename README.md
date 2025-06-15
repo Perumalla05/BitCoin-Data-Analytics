@@ -1,6 +1,3 @@
-
-
-```markdown
 # 📊 Bitcoin Price Analysis Dashboard with Tableau
 
 Welcome to the **Bitcoin Price Analysis Dashboard** — an interactive Tableau project that uncovers trends and insights from historical Bitcoin data 📈. This project visualizes daily, monthly, and yearly patterns in Bitcoin prices, volume, and volatility using a clean, well-structured Tableau dashboard.
@@ -10,18 +7,17 @@ Welcome to the **Bitcoin Price Analysis Dashboard** — an interactive Tableau p
 ## 🗂️ Project Contents
 
 📁 **Bitcoin-Price-Tableau**
+├── Bitcoin Historical Data.csv # Raw dataset
+├── Bitcoin_Cleaned.csv # Cleaned dataset (Python preprocessing)
+├── Bitcoin_preprocessing.ipynb # Python notebook for data cleaning
+├── dashboard1.twb # Tableau Workbook (Part 1)
+├── dashboard2.twb # Tableau Workbook (Part 2)
+├── dashboard3.twb # Tableau Workbook (Part 3)
+├── README.md # This README file
 
-```
 
-├── Bitcoin Historical Data.csv     # Raw dataset
-├── Bitcoin\_Cleaned.csv             # Cleaned dataset (Python preprocessing)
-├── Bitcoin\_preprocessing.ipynb     # Python notebook for data cleaning
-├── dashboard1.twb                  # Tableau Workbook (Part 1)
-├── dashboard2.twb                  # Tableau Workbook (Part 2)
-├── dashboard3.twb                  # Tableau Workbook (Part 3)
-├── README.md                       # This README file
 
-```
+
 
 ---
 
@@ -83,5 +79,3 @@ Performed in **Python (Pandas)**:
 - ⚠️ High **volatility** is observed during major market events  
 - 📊 **Volume spikes** often align with large price swings  
 - 📉 The **spread** between High and Low prices reveals market risk levels  
-```
-
