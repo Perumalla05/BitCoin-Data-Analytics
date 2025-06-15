@@ -1,6 +1,3 @@
-
-
-```markdown
 # 📊 Bitcoin Price Analysis Dashboard with Tableau
 
 Welcome to the **Bitcoin Price Analysis Dashboard** — an interactive Tableau project that uncovers trends and insights from historical Bitcoin data 📈. This project visualizes daily, monthly, and yearly patterns in Bitcoin prices, volume, and volatility using a clean, well-structured Tableau dashboard.
@@ -9,15 +6,14 @@ Welcome to the **Bitcoin Price Analysis Dashboard** — an interactive Tableau p
 
 ## 🗂️ Project Contents
 
-```
-
+```plaintext
 📁 Bitcoin-Price-Tableau
-├── Bitcoin\_Cleaned.csv         # Cleaned and preprocessed dataset
-├── Bitcoin\_Dashboard.twbx      # Tableau Workbook file
-├── dashboard\_preview\.png       # Screenshot of final dashboard
+├── Bitcoin_Cleaned.csv         # Cleaned and preprocessed dataset
+├── Bitcoin_Dashboard.twbx      # Tableau Workbook file
+├── dashboard_preview.png       # Screenshot of final dashboard
 └── README.md                   # This README file
 
-```
+
 
 ---
 
@@ -52,33 +48,30 @@ To explore and analyze historical Bitcoin data using Tableau, identify market pa
 | 9. Price Spread | Date | High - Low | Line/Area | Intraday volatility |
 | 10. Price Distribution | Year | Price | Box Plot | Outliers & price distribution |
 
-
+---
 
 ## 🧹 Data Cleaning Summary
 
 Performed in **Python (Pandas)**:
-- Removed commas from price columns
-- Converted volume units (K, M, B) to numbers
-- Handled missing/null values
-- Converted dates into proper datetime format
-- Calculated metrics like % change and spread
+- Removed commas from price columns  
+- Converted volume units (K, M, B) to numbers  
+- Handled missing/null values  
+- Converted dates into proper datetime format  
+- Calculated metrics like % change and spread  
 
 ---
 
 ## 🔧 Tools Used
 
-- 🐍 Python (Pandas)
-- 📊 Tableau Public
-- 📁 GitHub
+- 🐍 Python (Pandas)  
+- 📊 Tableau Public  
+- 📁 GitHub  
 
-
+---
 
 ## 📈 Key Insights
 
-- Bitcoin shows seasonality in monthly performance
-- High volatility is observed during market events
-- Volume spikes often align with large price swings
-- Spread between High and Low prices gives insight into risk
-
-
-
+- Bitcoin shows seasonality in monthly performance  
+- High volatility is observed during market events  
+- Volume spikes often align with large price swings  
+- Spread between High and Low prices gives insight into risk  
